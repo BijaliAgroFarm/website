@@ -3,157 +3,220 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saroj Kanti Barua</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Bijali Agro Farm</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#experience0">Experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#awards">Awards</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div class="logo-container">
+                <img src="images/logo.png" alt="Farm Logo" class="logo header-logo">
+                <span class="farm-name">Bijali Agro Farm</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about" data-section="about">About Us</a></li>
+                    <li><a href="#management" data-section="management">Management</a></li>
+                    <li><a href="#practices" data-section="practices">Our Practices</a></li>
+                    <li><a href="#gallery" data-section="gallery">Gallery</a></li>
+                    <li><a href="#contact" data-section="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="home" class="home-section">
-        <div class="container">
-            <div class="profile-summary">
-                <img src="./images/pfp.jpg" alt="Saroj Kanti Barua" class="profile-image">
-                <div class="summary-text">
-                    <h2>Saroj Kanti Barua</h2>
-                    <p>Seasoned farm owner and certified senior professional in sales and marketing with over 20 years of successful experience in market research, telecom, and consumer goods industries in Bangladesh. Proven success in managing farm operations, sales, and marketing teams, with a strong background in employee education and training, motivation, and development.</p>
-                    <div style="display: flex; gap: 15px; margin-top: 20px;">
+    <section class="hero" id="about-hero-section">
+        <div class="hero-content">
+            <h1>Welcome to Bijali Agro Farm</h1>
+            <p>Your source for fresh, sustainable products.</p>
+        </div>
+        <img src="images/workforce.jpeg" alt="Hero Image" class="hero-image">
+    </section>
+
+    <main class="container">
+        <section id="about" class="content-section">
+            <h2>About Our Farm</h2>
+            <p>We believe in the power of fresh, locally grown vegetables to nourish both bodies and communities. Our mission extends beyond simply cultivating the land; we strive to nurture a sustainable ecosystem that provides healthy, safe food for all.</p>
+            <p>We are dedicated to producing vegetables in a way that respects the environment and prioritizes your well-being. That's why our crops are grown with minimal intervention, avoiding harmful herbicides and pesticides whenever possible. We understand that the food we eat directly impacts our health, and we are committed to providing you with the purest, most wholesome vegetables nature has to offer.</p>
+            <p>Our farm is deeply rooted in the local community. We recognize the vital role local businesses play in fostering economic stability and sustainable development. By supporting our farm, you are not only gaining access to exceptional produce but also contributing to the creation of meaningful employment opportunities within our community.</p>
+            <p>We firmly believe that purchasing food from local farmers is a powerful act of community investment. It directly stimulates local production, leading to the creation of new income sources and driving economic growth. This ripple effect strengthens our local market, creating opportunities for fellow local producers and fostering a thriving, self-sufficient community.</p>
+            <p>Our commitment to sustainable practices extends to every aspect of our farm. We understand that the health of our soil, water, and air is inextricably linked to the health of our community. By employing regenerative farming techniques, we strive to minimize our environmental footprint and ensure that our land remains fertile for generations to come.</p>
+            <p>We are driven by a passion for cultivating wellness and fostering community resilience. We believe that access to fresh, healthy food is a fundamental human right, and we are dedicated to making that a reality for our community. Join us in our mission to grow a healthier, more sustainable future, one vegetable at a time.</p>
+            <p>Currently, our farm provides employment to a dedicated team of 12 individuals, who are passionate about sustainable agriculture and community development.</p>
+            <p>By choosing our farm, you're not just getting fresh, healthy produce; you're also directly contributing to:</p>
+            <ul>
+                <li><strong>Local Economic Growth:</strong> Supporting our farm bolsters the local economy and creates new income opportunities.</li>
+                <li><strong>Sustainable Agriculture:</strong> We prioritize eco-friendly practices that protect the environment for future generations.</li>
+                <li><strong>Community Well-being:</strong> Access to fresh, nutritious food is vital for a healthy community.</li>
+                <li><strong>Job Creation:</strong> Your support helps us provide stable employment to our valued team members.</li>
+            </ul>
+        </section>
+
+<section id="management" class="content-section">
+    <div class="owner-profile">
+        <img src="./images/pfp.jpeg" alt="Saroj Kanti Barua Profile Picture" class="owner-profile-pic">
+        <h2>Meet Saroj Kanti Barua, Our Founder and Managing Director</h2>
+        <p>Saroj Kanti Barua brings a wealth of experience to Bijali Agro Farm, blending a strong business acumen with a passion for sustainable agriculture.</p>
+    </div>
+
+    <div class="management-container">
+        <div class="education-section">
+            <h3>Educational Background</h3>
+            <p>Saroj's educational foundation has been vital in shaping his approach to business and agriculture:</p>
+            <ul>
+                <li>
+                    <strong>Master of Business Administration (MBA)</strong>
+                    <p>University of Madras – India, 2001</p>
+                </li>
+                <li>
+                    <strong>Bachelor of Business Administration (BBA)</strong>
+                    <p>University of Madras – India, 1998</p>
+                </li>
+                <li>
+                    <strong>Higher Secondary Certificate (HSC)</strong>
+                    <p>Govt. City College, Chittagong – Bangladesh, 1993</p>
+                </li>
+                <li>
+                    <strong>Secondary School Certificate (SSC)</strong>
+                    <p>Bandarban Govt. High School, Bandarban – Bangladesh, 1991</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="experience-section">
+            <h3>Professional Journey</h3>
+            <p>Here's a glimpse into his professional journey:</p>
+            <ul>
+                <li>
+                    <article>
+                        <div class="experience-header">
+                            <h3>Managing Director - Bijali Agro Farm</h3>
+                            <p class="experience-date">January 2020 - Present</p>
+                        </div>
+                        <p class="experience-description">As the founder and managing director, Saroj oversees all aspects of Bijali Agro Farm. He leads a team of 12, managing daily operations from crop and fish planning to harvesting and record keeping. His strategic marketing initiatives have driven a 10% annual sales increase through direct-to-consumer channels. Saroj is also deeply involved in training new recruits on best farming practices, ensuring post-harvest quality, and maintaining rigorous safety standards. He personally oversees the maintenance of farm equipment and the development of infrastructure, including irrigation systems and greenhouses.</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <div class="experience-header">
+                            <h3>Sales Manager (SM) - Robi Axiata Ltd</h3>
+                            <p class="experience-date">November 2016 - December 2019</p>
+                        </div>
+                        <p class="experience-description">During his 38-month tenure at Robi Axiata Limited, Saroj excelled as a Sales Manager. He demonstrated exceptional leadership by monitoring key performance metrics, identifying challenges, and implementing effective solutions. His behavior-based coaching and motivational strategies resulted in a 15% increase in sales revenue within the first 60 days. He also closely monitored competitive market activities and analyzed sales data to optimize performance and achieve GTM targets.</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <div class="experience-header">
+                            <h3>Senior Executive (TM) - Airtel BD Ltd</h3>
+                            <p class="experience-date">September 2014 - October 2016</p>
+                        </div>
+                        <p class="experience-description">Saroj spent 25 successful months as a Senior Executive at Airtel Bangladesh Limited, where he honed his skills in sales management and leadership. He analyzed sales statistics, provided training and coaching to sales staff, and developed lead generation strategies in collaboration with the marketing team. He was also responsible for monitoring sales team performance and implementing corrective actions as required.</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <div class="experience-header">
+                            <h3>Territory Manager (TM) - Meghna Group of Industries Limited</h3>
+                            <p class="experience-date">October 2012 - September 2014</p>
+                        </div>
+                        <p class="experience-description">At Meghna Group of Industries Limited, Saroj served as a Territory Manager, directing commissioned sales staff to achieve monthly sales and profit targets. He successfully recruited, trained, and developed a sales force that generated significant revenue. He also established and developed sales strategies for key customers and ensured the effective distribution of the FRESH BRAND.</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <div class="experience-header">
+                            <h3>Assistant Marketing Officer (AMO) - Abul Khair Tobacco Company Limited</h3>
+                            <p class="experience-date">January 2007 - September 2012</p>
+                        </div>
+                        <p class="experience-description">Saroj contributed to the sales and marketing department of Abul Khair Tobacco Company for nearly six years. He improved CRM systems, fostered strong business relationships, and increased profits. He evaluated sales and marketing staff performance and ensured the implementation of corporate plans and policies at the field level.</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <div class="experience-header">
+                            <h3>Research Officer (RO) - ICPL Research Institute</h3>
+                            <p class="experience-date">July 2002 - December 2006</p>
+                        </div>
+                        <p class="experience-description">Saroj began his career at ICPL Research Institute, where he conducted market research for over four years. He gained valuable experience in understanding product, market, and consumer characteristics. He also defined sales strategies for specific products and customer segments.</p>
+                    </article>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+        <section id="practices" class="content-section">
+            <h2>Our Farming Practices: A Detailed Look at Our Integrated Approach</h2>
+
+            <p>At our Farm, we're committed to a holistic farming system that harmonizes vegetable cultivation, sustainable fishing practices, and high-quality cow milk production. Our practices are deeply rooted in the unique agricultural landscape of Bangladesh, adapting to its challenges and capitalizing on its natural abundance.</p>
+        
+            <p><strong>Vegetable Cultivation:</strong> We grow a diverse range of seasonal vegetables, carefully selected for their nutritional value and suitability to the Bangladeshi climate. Our cultivation practices prioritize soil health and natural pest control. We utilize integrated pest management (IPM) techniques, including beneficial insects and natural pesticides like neem oil, to minimize chemical inputs. We employ crop rotation and intercropping to enhance soil fertility and reduce disease pressure. During the monsoon season, we utilize raised beds, mulching, and drainage systems to protect our crops from waterlogging and ensure consistent yields. We also focus on using local seed varieties that are well-adapted to our region's specific conditions.</p>
+        
+            <p><strong>Sustainable Fishing Practices:</strong> Our fishing practices are designed to mimic natural aquatic ecosystems, promoting biodiversity and minimizing environmental impact. We focus on raising indigenous fish species that are well-suited to the local climate and water conditions of Bangladesh, such as Tilapia, Rui, and Catla. We utilize polyculture techniques, raising multiple fish species together in our ponds, to optimize resource utilization and create a balanced ecosystem. Our ponds are carefully managed to maintain optimal water quality, using natural filtration systems and avoiding excessive feed inputs that could pollute the water. We also integrate our fishing practices with our vegetable farming, using nutrient-rich pond water for irrigation and fish waste as fertilizer, creating a closed-loop system. We prioritize responsible harvesting methods to ensure the sustainability of our fish populations, avoiding overfishing and promoting healthy fish growth. We also try to encourage natural spawning within our ponds, to avoid reliance on outside hatcheries.</p>
+        
+            <p><strong>Cow Milk Products:</strong> Our dairy practices focus on the health and well-being of our cows, ensuring they produce high-quality milk. We maintain a herd of indigenous and crossbred cows that are well-adapted to the Bangladeshi climate. Our cows graze on natural pastures and are supplemented with high-quality feed, ensuring they receive a balanced diet. We follow strict hygiene protocols in our milking and processing facilities, ensuring our milk is free from contaminants. We produce a range of dairy products, including fresh milk, yogurt, and ghee, using traditional methods that preserve their natural flavor and nutritional value. We also focus on creating a stress-free environment for our cows, as happy cows produce better quality milk.</p>
+        
+            <p><strong>Integrated Farming Approach:</strong> We believe in a symbiotic relationship between our vegetable, fishing, and dairy operations. Cow manure is composted and used as a natural fertilizer for our vegetable crops, enriching the soil and reducing our reliance on chemical fertilizers. Nutrient-rich water from our fishing ponds is used for irrigating our vegetable fields, providing a natural source of nutrients and minimizing water waste. We also utilize crop residues and fish waste as feed for our cows, creating a closed-loop system that minimizes waste and maximizes resource utilization.</p>
+        
+            <p><strong>Adapting to the Bangladeshi Climate:</strong> We understand the challenges posed by Bangladesh's climate, including the monsoon season, occasional floods, and rising temperatures. We implement climate-smart agriculture practices, such as rainwater harvesting, drought-resistant crop varieties, and flood-resistant farming techniques. We also focus on soil carbon sequestration to mitigate the impacts of climate change and enhance soil health.</p>
+        
+            <p><strong>Community Engagement and Knowledge Sharing:</strong> We are committed to empowering our local farming community through knowledge sharing and training programs. We collaborate with agricultural experts and researchers to adopt innovative technologies and techniques that are appropriate for Bangladesh's unique context. We also provide training and support to fellow farmers on sustainable farming practices, promoting environmental stewardship and improving rural livelihoods.</p>
+        
+            <p><strong>Quality and Traceability:</strong> We prioritize quality and traceability in all our products. We maintain detailed records of our farming practices, ensuring that our products are safe, healthy, and sustainably produced. We are committed to transparency and are happy to share information about our farming practices with our customers.</p>
+        
+        </section>
+
+        <section id="gallery" class="content-section">
+            <h2>Farming Gallery</h2>
+            <div class="gallery">
+                <img src="./images/fish1.jpg" alt="Gallery 1">
+                <img src="./images/veg1.jpeg" alt="Gallery 2">
+                <img src="./images/veg2.jpeg" alt="Gallery 3">
+                <img src="./images/veg3.jpeg" alt="Gallery 4">
+                <img src="./images/veg4.jpeg" alt="Gallery 5">
+                <img src="./images/veg5.jpeg" alt="Gallery 6">
+                <img src="./images/veg6.jpeg" alt="Gallery 7">
+                <img src="./images/veg7.jpeg" alt="Gallery 8">
+                <img src="./images/veg8.jpeg" alt="Gallery 9">
+                <img src="./images/veg9.jpeg" alt="Gallery 10">
+            </div>
+        
+            <h2>Prize Awardee As Sales Manager</h2>
+            <div class="gallery">
+                <img src="./images/prize1.jpeg" alt="Prize Awarding 1">
+                <img src="./images/prize2.jpeg" alt="Prize Awarding 2">
+                <img src="./images/prize3.jpeg" alt="Prize Awarding 3">
+                <img src="./images/crest1.jpeg" alt="Prize Awarding 4">
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+            <div class="container">
+                <div class="contact-intro">
+                    <p>Interested in learning more about Saroj Kanti Barua's experience and background? Find detailed contact information and professional links below.</p>
+                </div>
+                    <div>
                         <a href="mailto:saroj.barua.airtel@gmail.com" class="social-button email-button">
                             <img src="https://img.icons8.com/color/32/000000/gmail--v1.png" alt="Email">
                         </a>
-                        <a href="https://linkedin.com/in/saroj-kanti-barua-b5023819b" target="_blank" class="social-button linkedin-button">
+                        <a href="https://linkedin.com/in/saroj-kanti-barua-b50238019b" target="_blank" class="social-button linkedin-button">
                             <img src="https://img.icons8.com/color/32/000000/linkedin.png" alt="LinkedIn">
                         </a>
                         <a href="https://facebook.com/saroj.tipu.5" target="_blank" class="social-button facebook-button">
                             <img src="https://img.icons8.com/color/32/000000/facebook-new.png" alt="Facebook">
                         </a>
                     </div>
-                </div>
             </div>
-        </div>
-    </section>
-    
+        </section>
+    </main>
 
-    <section id="experience0" class="hidden">
+    <footer>
         <div class="container">
-            <h2>Experience</h2>
-            <article>
-                <div style="display: flex; justify-content: space-between; align-items: baseline;">
-                    <h3>Managing Director - Bijali Agro Farm</h3>
-                    <p class="experience-date">January 2020 - Present</p>
-                </div>
-                <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Manage a team of 12 employees, overseeing daily farm operations including crop and fish planning, planting, harvesting, and record keeping. Created marketing plans that increased sales by 10% annually through direct-to-consumer channels. Trained new recruits in farming practices, post-harvest handling, and safety standards. Assisted in maintenance and repair of irrigation systems and greenhouse construction projects. Equipment used in the production process (tractors, tillers, sprayers, fishing nets) are maintained and safety standards are always followed during work.</p>
-            </article>
-            <article>
-                <div style="display: flex; justify-content: space-between; align-items: baseline;">
-                    <h3>Sales Manager (SM) - Robi Axiata Ltd</h3>
-                    <p class="experience-date">November 2016 - December 2019</p>
-                </div>
-                <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Completed 38 months of my sales career in Multinational Telecommunication Company “Robi Axiata Limited” as Sales Manager. Monitored key performance metrics, identified challenges, and implemented solutions. Increased sales revenue by 15% within the first 60 days through behavior-based coaching and motivation. Monitored and act on competitive offers and activities. Analyzed sales data to reduce gaps and achieve GTM targets.</p>
-            </article>
-            <article>
-                <div style="display: flex; justify-content: space-between; align-items: baseline;">
-                    <h3>Senior Executive (TM) - Airtel BD Ltd</h3>
-                    <p class="experience-date">September 2014 - October 2016</p>
-                </div>
-                <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Worked successfully for 25 months as a Senior Executive in the Multinational Company “Airtel Bangladesh Limited”. Analyzed sales statistics and motivated, trained, and coached sales staff. Created lead generation strategies aligned with the marketing team. Monitored sales team performance metrics and report data. Undertake tertiary and secondary monitoring and corrective action as required by BTS.</p>
-            </article>
-            <article>
-                <div style="display: flex; justify-content: space-between; align-items: baseline;">
-                    <h3>Territory Manager (TM) - Meghna Group of Industries Limited</h3>
-                    <p class="experience-date">October 2012 - September 2014</p>
-                </div>
-                <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Served in Meghna Group of Industries Limited (FMCG Company)for 1 year and 11 months successfully in Sales & Marketing Department. Directed commissioned sales staff to achieve monthly sales and profit targets. Recruited, trained, and developed a successful sales force generating revenue of BD 50,000,000+. Established, developed a sales strategy for all key customers and prospects with 1000s of key customers. Ensured availability and effective distribution of FRESH BRAND.</p>
-            </article>
-            <article>
-                <div style="display: flex; justify-content: space-between; align-items: baseline;">
-                    <h3>Assistant Marketing Officer (AMO) - Abul Khair Tobacco Company Limited</h3>
-                    <p class="experience-date">January 2007 - September 2012</p>
-                </div>
-                <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Worked in Abul Khair Tobacco Company for 5 years and 8 months in Sales & Marketing Department. Improved CRM systems and increased business relationships and profits by 25%. Evaluated sales and marketing staff performance to achieve 100% target fulfillment. Able to build excellent business relationships with various traders and customers. Implemented corporate plans and policies at the field level.</p>
-            </article>
-            <article>
-                <div style="display: flex; justify-content: space-between; align-items: baseline;">
-                    <h3>Research Officer (RO) - ICPL Research Institute</h3>
-                    <p class="experience-date">July 2002 - December 2006</p>
-                </div>
-                <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Conducted Market Research for 4 years and 5 months with ICPL Research Institute and gained experience on various Product, Market & Consumer characteristics. Conducted market research to determine current and future market requirements for products. Defined sales strategies for specific products, customer segments, and geographies.</p>
-            </article>
+            <img src="images/logo.png" alt="Farm Logo" class="logo footer-logo">
+            <p>&copy; Copyright 2019-2025 </p>
         </div>
-    </section>
-
-    <section id="education" class="hidden">
-        <div class="container">
-            <h2>Education</h2>
-            <article>
-                <h3>Master of Business Administration (MBA)</h3>
-                <p>University of Madras – India, 2001</p>
-            </article>
-            <article>
-                <h3>Bachelor of Business Administration (BBA)</h3>
-                <p>University of Madras – India, 1998</p>
-            </article>
-            <article>
-                <h3>Higher Secondary Certificate (HSC)</h3>
-                <p>Govt. City College, Chittagong – Bangladesh, 1993</p>
-            </article>
-            <article>
-                <h3>Secondary School Certificate (SSC)</h3>
-                <p>Bandarban Govt. High School, Bandarban – Bangladesh, 1991</p>
-            </article>
-        </div>
-    </section>
-
-    <section id="skills" class="hidden">
-        <div class="container">
-            <h2>Skills</h2>
-            <ul class="skills-list">
-                <li>Sales Policy & Procedures</li>
-                <li>Employee Sales Performance</li>
-                <li>Rewards / Incentives</li>
-                <li>Education & Training</li>
-                <li>Employee Relations</li>
-                <li>Training Sales Staff</li>
-                <li>Excellent Sportsmanship</li>
-                <li>Effective Communication</li>
-                <li>Team Leadership</li>
-                <li>Initiative</li>
-                <li>Personal Safety & Social Responsibilities (PSSR)</li>
-                <li>Fire Prevention and Fire Fighting (FPFF)</li>
-                <li>Personal Survival Techniques (PST)</li>
-                <li>Elementary First Aid (EFA)</li>
-                <li>Smooth working knowledge of Microsoft Office</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="awards" class="hidden">
-        <div class="container">
-            <h2>Business Awards</h2>
-            <article>
-                <h3>Best Sales Manager of Northern & Southern Cluster 2018 - Airtel BD Ltd, Bangladesh</h3>
-            </article>
-            <article>
-                <h3>Best Sales Manager of Northern & Southern Cluster 2017 - Robi Axiata Ltd, Bangladesh</h3>
-            </article>
-        </div>
-        <div class="container">
-            <h2>Sports Achievements</h2>
-            <article><h3>Gold and Bronze Medals in Annual Inter-College Sports Competitions (1992).</h3></article>
-            <article><h3>Champion in District Level School and Madrasa Winter Sports Competitions (1990).</h3></article>
-            <article><h3>Chess Competition Gold Medalist (1987).</h3></article>
-            <article><h3>Badminton and Table Tennis Champion in Regional Competitions (1987-1989).</h3></article>
-        </div>
-    </section>
+    </footer>
 
     <script src="script.js"></script>
 </body>
